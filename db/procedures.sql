@@ -1,3 +1,4 @@
+--create procedure for insert or update
 CREATE DEFINER=`root`@`localhost` PROCEDURE `employeeAddOrEdit`(
     IN _id INT,
     IN _name VARCHAR(45),
@@ -14,3 +15,9 @@ BEGIN
     END IF;
     SELECT _id AS 'id';
 END
+
+--calling procedure for insert
+call Api1.employeeAddOrEdit(0, 'Alison Ortiz', 500);
+
+--calling procedure for update
+call Api1.employeeAddOrEdit(5, 'Alison Ortiz', 5000);
