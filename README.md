@@ -2,7 +2,7 @@
 
 ### Installation
 ```
-git clone
+git clone https://github.com/rortizs/apiRest-node.git
 cd project
 npm install
 npm run dev
