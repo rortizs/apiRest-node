@@ -12,8 +12,8 @@ CREATE TABLE employee (
 DESCRIBE employee;
 
 INSERT INTO employee VALUES
-(1, 'Ryan Ray', 2000),
-(2, 'John Doe', 3000),
-(3, 'Jane Doe', 4000);
+(1, 'ALLAN VALENCIA', 2000),
+(2, 'DAVID ORTIZ', 3000),
+(3, 'JUAN ORELLANA', 4000);
 
 SELECT * FROM employee;
